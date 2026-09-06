@@ -1,0 +1,157 @@
+/* Base Reset and Fonts */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+
+header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+    margin-bottom: 15px;
+}
+
+/* Requirement: Set the span tag in the header to display as a block */
+header span.header-container {
+    display: block;
+    margin-top: 15px;
+}
+
+header span.header-container h1 {
+    font-size: 1.5rem;
+    color: #e0e0e0;
+    margin-bottom: 15px;
+}
+
+/* Requirement: Use CSS Flex on the navigation nav */
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 15px;
+    justify-content: center;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+/* Requirement: Navigation bar must employ a well designed hover effect */
+header nav ul li a:hover {
+    background-color: #ffffff;
+    color: #003366;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Requirement: The main element has a limited width and is centered horizontally */
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+    
+    /* Requirement: Lay out the main column cards using CSS Grid */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+/* Cards Layout and Design */
+.card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card h2 {
+    color: #003366;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f4f7f6;
+    padding-bottom: 5px;
+}
+
+.card h2:not(:first-of-type) {
+    margin-top: 30px;
+}
+
+.card img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+    text-align: justify;
+}
+
+.card ul {
+    list-style-position: inside;
+    margin-left: 5px;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+}
+
+.card ul li a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.card ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #222222;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 5px 0;
+}
