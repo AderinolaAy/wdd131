@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/place.css">
+  <script src="scripts/place.js" defer></script>
+  <title>Country Details - Nigeria</title>
+</head>
+<body>
+  <header>
+    <h1>Nigeria</h1>
+    <!-- Hero Image -->
+    <picture>
+      <!-- Large screens -->
+      <source srcset="images/Coat_of_arms_of_Nigeria.svg.webp" media="(min-width: 1024px)">
+      <!-- Medium screens -->
+      <source srcset="images/Coat_of_arms_of_Nigeria.svg.webp" media="(min-width: 600px)">
+      <!-- Default (small screens) -->
+      <img src="images/Coat_of_arms_of_Nigeria.svg.webp" alt="Hero image of Nigeria">
+    </picture>
+  </header>
+
+  <main>
+    <section class="details">
+      <h2>Country Information</h2>
+      <ul>
+        <li><strong>Area:</strong> 923,769 km²</li>
+        <li><strong>Population:</strong> ~200 million</li>
+        <li><strong>Languages:</strong> English (official), Hausa, Yoruba, Igbo, and others</li>
+        <li><strong>Currency:</strong> Nigerian Naira (₦)</li>
+        <li><strong>Time Zone:</strong> West Africa Standard Time (UTC+1)</li>
+        <li><strong>Calling Code:</strong> +234</li>
+        <li><strong>Internet TLD:</strong> .ng</li>
+      </ul>
+    </section>
+
+    <section class="weather">
+      <h2>Weather</h2>
+      <p><strong>Temperature:</strong> 8 °C</p>
+      <p><strong>Conditions:</strong> Cloudy</p>
+      <p><strong>Wind:</strong> 10 km/h</p>
+      <p><strong>Wind Chill:</strong> 6 °C</p>
+    </section>
+  </main>
+
+  <footer>
+    <p> <span id="year"></span> Country Details</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+
+</body>
+</html>
