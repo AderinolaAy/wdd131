@@ -1,0 +1,15 @@
+/* Larger view adjustments */
+nav ul {
+  flex-direction: row; /* Horizontal menu */
+  justify-content: center;
+  gap: 1rem;
+}
+
+main.album-container {
+  max-width: 1200px; /* Wider layout */
+}
+
+/* Gallery Grid for larger screens */
+.gallery-grid {
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+}

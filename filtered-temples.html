@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temple Album</title>
+  <link rel="stylesheet" href="styles/filtered-temples.css">
+  <script src="scripts/filtered-temples.js" defer></script>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Temple Album</h1>
+    <p>A Visual Journey Through the Temples of the Church of Jesus Christ of Latter-day Saints</p>
+    <nav>
+      <ul>
+        <li><button data-filter="all">All</button></li>
+        <li><button data-filter="old">Old</button></li>
+        <li><button data-filter="new">New</button></li>
+        <li><button data-filter="large">Large</button></li>
+        <li><button data-filter="small">Small</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Album Container -->
+  <main class="album-container">
+    <div class="gallery-grid"></div>
+  </main>
+
+  <footer>
+    <p><span id="currentyear"></span> | Aderinola Ayoyemi | Nigeria</p>
+    <p id="lastModified"></p>
+  </footer>
+
+</body>
+</html>
