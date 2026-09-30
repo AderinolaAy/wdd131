@@ -1,0 +1,81 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Roboto:wght@300;400;500&display=swap');
+
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #121212; /* Dark Charcoal */
+  color: #FFFFFF; /* White text */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #1DB954; /* Spotify Green */
+  color: #121212; /* Dark text for contrast */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+/* Sections */
+section {
+  padding: 20px;
+  border-bottom: 1px solid #333;
+}
+
+section h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #1DB954; /* Accent green for headings */
+  margin-bottom: 10px;
+}
+
+/* Lists */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+  background-color: #1DB954;
+  color: #121212;
+  text-align: center;
+  padding: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Links */
+a {
+  color: #1DB954;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Typography */
+p, li {
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 3rem;
+  }
+  section h2 {
+    font-size: 2rem;
+  }
+}
