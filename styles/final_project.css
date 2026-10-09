@@ -1,0 +1,118 @@
+/* Fonts */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #121212;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  color: #1DB954;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #121212;
+  padding: 15px 30px;
+}
+
+header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #1DB954;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+nav a:hover {
+  color: #1DB954;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 50px;
+  background-color: #1DB954;
+  color: #121212;
+}
+
+.hero button {
+  background-color: #121212;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #333333;
+}
+
+/* Sections */
+section {
+  padding: 40px;
+}
+
+.artist-grid, .release-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+article, .release {
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #1DB954;
+  color: #121212;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #17a74a;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #121212;
+}
+
+footer .social-links a {
+  color: #1DB954;
+  text-decoration: none;
+  margin: 0 10px;
+}
